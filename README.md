@@ -9,7 +9,7 @@
 &nbsp;
 #### The Data: The American National Election Survey 
 * Compiled by American National Election Studies, a collaboration between Stanford University and the University of Michigan.
-* Survey of more than 8,000 people before and after the 2020 election. More than 1,300 features in the data set.
+* Survey of more than 8,000 people before and after the 2020 election. More than 1,300 features in the dataset.
 &nbsp;
 
 #### Cleaning the Data
@@ -20,17 +20,19 @@
 
 #### Initial Model 
 * After eliminating data leakage, initial model still scored highly.
-* Test set accuracy: 0.956
+* Test 
+accuracy: 0.956
 * Five-fold cross-validation score: 0.948
 &nbsp;
 #### Tuned Model
 * The model was tuned following a grid search. Performance improved slightly (from an already high level).
-* Test set accuracy: 0.957
+* Test 
+accuracy: 0.957
 * Five-fold cross-validation score (accuracy): 0.951
 
 
 &nbsp;
-#### Confusion Matrix on Full Data Set
+#### Confusion Matrix on Full Dataset
 &nbsp;
 ![second_conf_matrix](https://user-images.githubusercontent.com/29707241/114323812-9f452400-9aec-11eb-9dfe-f1f42166eb0f.png)
 
@@ -51,8 +53,8 @@
 
 
 #### Permutation Feature Importance
-* Permutation feature importance returned some odd results on the full dataset. (It is said to struggle to deal with highly correlated features, such as in this data set.)
-* Not necessarily worth further exploration on the full data set.
+* Permutation feature importance returned some odd results on the full dataset. (It is said to struggle to deal with highly correlated features, such as in this dataset.)
+* Not necessarily worth further exploration on the full dataset.
 
 ![perm_features_full_data](https://user-images.githubusercontent.com/29707241/114324514-0b755700-9af0-11eb-8440-ef03d4d3bd90.png)
 &nbsp;
@@ -62,7 +64,7 @@
 ### Narrowing It Down: An Accurate Prediction in Three Questions (Or Fewer)?
 * What questions and answers do we need to predict a person's vote?
 * Using feature importance as a guide, I somewhat arbitrarily chose 59 questions on seven broad topics.
-* I then ran the model on all at once, and on each subdivided data set.
+* I then ran the model on all at once, and on each subdivided dataset.
 
 #### Topics
 * Affordable Care Act
@@ -76,7 +78,7 @@
 
 &nbsp;
 #### First run of collected "hot button" questions and answers: 
-* Accuracy was extremely close to that of run on full data set.
+* Accuracy was extremely close to that of run on full dataset.
 * Test set accuracy: 0.955
 * Five-fold cross_validation score (accuracy): 0.957
 
