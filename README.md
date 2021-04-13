@@ -5,7 +5,6 @@
 ### Objectives
 * Use GradientBoostingClassifier algorithm to build a model to predict whether someone voted for Donald Trump or Joe Biden based on answers to survey questions.
 * When the model is sufficiently accurate, interpret it to determine which answers to which questions were the strongest predictors of a vote for Trump or Biden.
-
 &nbsp;
 #### The Data: The American National Election Survey 
 * Compiled by American National Election Studies, a collaboration between Stanford University and the University of Michigan.
