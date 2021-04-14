@@ -39,7 +39,7 @@ accuracy: 0.957
 &nbsp;
 ### Interpreting the Model
 * There is some debate about whether feature importance or permutation feature importance is the most accurate, reliable measure of the importance of individual features to the model's accuracy. I looked at both. 
-* NOTE: With both measures, the results deemed most important to the model's accuracy, not necessarily to the survey respondents.
+* NOTE: With both measures, the results are deemed most important to the model's accuracy, not necessarily to the survey respondents.
 &nbsp;
 
 
