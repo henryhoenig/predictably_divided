@@ -2,6 +2,9 @@
 
 &nbsp;
 
+![voters](https://user-images.githubusercontent.com/29707241/114796774-58a73200-9d57-11eb-85b5-4d3ce032f480.jpeg)
+
+
 ### Objectives
 * Use GradientBoostingClassifier algorithm to build a model to predict whether someone voted for Donald Trump or Joe Biden based on answers to survey questions.
 * When the model is sufficiently accurate, interpret it to determine which answers to which questions were the strongest predictors of a vote for Trump or Biden.
