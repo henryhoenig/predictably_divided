@@ -54,15 +54,6 @@ accuracy: 0.957
 &nbsp;
 
 
-#### Permutation Feature Importance
-* Permutation feature importance returned some odd results on the full dataset. (It is said to struggle to deal with highly correlated features, such as in this dataset.)
-* Not necessarily worth further exploration on the full dataset.
-
-![perm_features_full_data](https://user-images.githubusercontent.com/29707241/114324514-0b755700-9af0-11eb-8440-ef03d4d3bd90.png)
-&nbsp;
-
-
-
 ### Narrowing It Down: An Accurate Prediction in Three Questions?
 * What questions and answers do we need to predict a person's vote?
 * Using feature importance as a guide, I somewhat arbitrarily chose 59 questions on seven broad topics.
